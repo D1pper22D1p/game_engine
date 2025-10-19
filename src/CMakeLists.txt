@@ -33,7 +33,6 @@ target_link_libraries(GameEngine
     odbccp32.lib
 )
 
-# Include header-only libraries
 target_include_directories(GameEngine
     PRIVATE
     ${directx-headers_INCLUDE_DIRS}

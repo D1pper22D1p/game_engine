@@ -14,7 +14,6 @@ add_executable(GameEngine
     Mesh.h
 )
 
-# Link only system libraries that have actual .lib files
 target_link_libraries(GameEngine
     PRIVATE
     d3d12.lib

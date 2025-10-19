@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "")
 
-# ADD THIS LINE - tells CMake where to find packages
 set(CMAKE_PREFIX_PATH "C:/vcpkg/installed/x64-windows" CACHE STRING "")
 
 project(GameEngine)
